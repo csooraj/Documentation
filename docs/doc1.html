@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Thumbnail · WP REACT NATIVE</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Instructions for using the thumbnail component."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Thumbnail · WP REACT NATIVE"/><meta property="og:type" content="website"/><meta property="og:url" content="#/index.html"/><meta property="og:description" content="Instructions for using the thumbnail component."/><meta property="og:image" content="#/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="#/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="../css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="../img/docusaurus.svg" alt="WP REACT NATIVE"/><h2 class="headerTitleWithLogo">WP REACT NATIVE</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/doc1.html" target="_self">Docs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Components</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Components</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docs/doc1.html">Thumbnail</a></li></ul></div></div></section></div><script>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Card · WP REACT NATIVE</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Instructions for using the Card component."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Card · WP REACT NATIVE"/><meta property="og:type" content="website"/><meta property="og:url" content="#/index.html"/><meta property="og:description" content="Instructions for using the Card component."/><meta property="og:image" content="#/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="#/img/docusaurus.png"/><link rel="shortcut icon" href="../img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="../css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/docusaurus.svg" alt="WP REACT NATIVE"/><h2 class="headerTitleWithLogo">WP REACT NATIVE</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/doc1.html" target="_self">Docs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Components</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Components</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docs/doc1.html">Card</a></li></ul></div></div></section></div><script>
             document.addEventListener('DOMContentLoaded', function() {
               createToggler('#navToggler', '#docsNav', 'docsSliderActive');
               createToggler('#tocToggler', 'body', 'tocActive');
@@ -21,117 +21,74 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Thumbnail</h1></header><article><div><span><p>Instructions for using the thumbnail component.</p>
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Card</h1></header><article><div><span><p>Instructions for using the Card component.</p>
 <h2><a class="anchor" aria-hidden="true" id="description"></a><a href="#description" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Description</h2>
-<p>Used to create a thumbnail image either with text or buttons or whatever child component that you want to display.</p>
-<p><img src="./assets/thumbnail.png" alt="alt-text"></p>
+<p>Used to create a card view with image, title, description with additional labels and a button</p>
+<p><img src="./assets/cardandroid.png" alt="alt-text"></p>
 <h2><a class="anchor" aria-hidden="true" id="usage"></a><a href="#usage" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
-<pre><code class="hljs css languages- js"><span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<pre><code class="hljs css languages- js">
+<span class="hljs-keyword">import</span> React, { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
 <span class="hljs-keyword">import</span> {
-  Platform,
-  StyleSheet,
-  WebView,
-  Text,
-  View
+  View,
 } <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native'</span>;
 
-<span class="hljs-keyword">import</span> Styles <span class="hljs-keyword">from</span> <span class="hljs-string">'./styles'</span>;
-<span class="hljs-keyword">import</span> Button <span class="hljs-keyword">from</span> <span class="hljs-string">'../button/button'</span>;
-<span class="hljs-keyword">import</span> Thumbnail <span class="hljs-keyword">from</span> <span class="hljs-string">'../thumbnail/thumbnail'</span>;
+<span class="hljs-keyword">import</span> Card <span class="hljs-keyword">from</span> <span class="hljs-string">'./src/lib/card/card'</span>;
 
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span>&lt;<span class="hljs-title">Props</span>&gt; </span>{
+<span class="hljs-keyword">const</span> image1 = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./src/assets/product.png'</span>);
+<span class="hljs-keyword">const</span> image2 = <span class="hljs-built_in">require</span>(<span class="hljs-string">'./src/assets/product2.png'</span>);
 
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">App</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Component</span>&lt;</span>{}&gt; {
   render() {
     <span class="hljs-keyword">return</span> (
-      &lt;View&gt;
-
-       // Large Thumbnail with remote image and text align on left end
-
-        &lt;Thumbnail
-          thumbLabel="CATEGORY 1"
-          textOnly={true}
-          thumbNailStyle={Styles.category1}
-          thumbImageStyle={Styles.category1Image}
-          thumbLabelStyle={Styles.category1Label}
-          source={{uri: 'https://cdn.pixabay.com/photo/2017/09/07/17/27/background-2726039_960_720.png'}}
+      &lt;View style={{ backgroundColor: 'white', flex: 1, flexDirection: 'row' }}&gt;
+        &lt;Card
+          buttonLabel="99%"
+          description="It helps to outline the It helps to outline the"
+          highlightedLabel="500.00 $"
+          imageSource={image2}
+          strikedLabel="799.00 $"
+          title="Product #2"
         /&gt;
-
-
-        // Small Thumbnail with local image and text align on center
-
-        &lt;Thumbnail
-          thumbLabel="CATEGORY 2"
-          textOnly={true}
-          thumbNailStyle={Styles.category2}
-          thumbImageStyle={Styles.category2Image}
-          thumbLabelStyle={Styles.category2Label}
-          source={require('../../assets/test.png')}
+        &lt;Card
+          buttonLabel="99%"
+          description="It helps to outline the It helps to outline the"
+          highlightedLabel="500.00 $"
+          imageSource={image1}
+          strikedLabel="799.00 $"
+          title="Product #1"
         /&gt;
-
-        // Large Thumbnail with other components inside
-
-        &lt;Thumbnail
-          textOnly={false}
-          thumbNailStyle={Styles.category3}
-          thumbImageStyle={Styles.category3Image}
-          thumbLabelStyle={Styles.category3Label}
-          source={require('../../assets/newyear.png')}
-        &gt;
-         &lt;View style={Styles.containerView}&gt;
-           &lt;View style={Styles.childContainer}&gt;
-             &lt;Text
-               adjustsFontSizeToFit
-               style={Styles.category3Label}
-             &gt;
-              Happy New Year!
-             &lt;/Text&gt;
-             &lt;Button
-               style={Styles.visitButton}
-               label="Visit"
-             /&gt;
-           &lt;/View&gt;
-         &lt;/View&gt;
-        &lt;/Thumbnail&gt;
       &lt;/View&gt;
     );
   }
 }
+
 </code></pre>
 <hr>
 <h3><a class="anchor" aria-hidden="true" id="props"></a><a href="#props" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Props</h3>
 <ul>
-<li><a href="#source"><code>source</code></a></li>
-<li><a href="#textOnly"><code>textOnly</code></a></li>
-<li><a href="#thumbNailStyle"><code>thumbNailStyle</code></a></li>
-<li><a href="#thumbImageStyle"><code>thumbImageStyle</code></a></li>
-<li><a href="#label"><code>thumbLabel</code></a></li>
-<li><a href="#thumbLabelStyle"><code>thumbLabelStyle</code></a></li>
+<li><a href="#buttonAndLabelsContainerStyle"><code>buttonAndLabelsContainerStyle</code></a></li>
+<li><a href="#buttonLabel"><code>buttonLabel</code></a></li>
+<li><a href="#buttonLabelStyle"><code>buttonLabelStyle</code></a></li>
+<li><a href="#buttonStyle"><code>buttonStyle</code></a></li>
+<li><a href="#cardContainerstyle"><code>cardContainerstyle</code></a></li>
+<li><a href="#contentContainerStyle"><code>contentContainerStyle</code></a></li>
+<li><a href="#description"><code>description</code></a></li>
+<li><a href="#decscriptionContainerStyle"><code>decscriptionContainerStyle</code></a></li>
+<li><a href="#descriptionStyle"><code>descriptionStyle</code></a></li>
+<li><a href="#highlightedLabel"><code>highlightedLabel</code></a></li>
+<li><a href="#highlightedLabelStyle"><code>highlightedLabelStyle</code></a></li>
+<li><a href="#imageSource"><code>imageSource</code></a></li>
+<li><a href="#imageStyle"><code>imageStyle</code></a></li>
+<li><a href="#strikedLabel"><code>strikedLabel</code></a></li>
+<li><a href="#strikedLabelStyle"><code>strikedLabelStyle</code></a></li>
+<li><a href="#title"><code>title</code></a></li>
+<li><a href="#titleContainerStyle"><code>titleContainerStyle</code></a></li>
+<li><a href="#titleStyle"><code>titleStyle</code></a></li>
 </ul>
 <hr>
 <h1><a class="anchor" aria-hidden="true" id="reference"></a><a href="#reference" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Reference</h1>
-<h3><a class="anchor" aria-hidden="true" id="source"></a><a href="#source" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>source</code></h3>
-<p>source of the image, provide either path of local image or url of the image (required)</p>
-<table>
-<thead>
-<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
-</thead>
-<tbody>
-<tr><td style="text-align:center">object</td><td style="text-align:center">none</td></tr>
-</tbody>
-</table>
-<hr>
-<h3><a class="anchor" aria-hidden="true" id="textonly"></a><a href="#textonly" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>textOnly</code></h3>
-<p>boolean indicating the type of thumbnail. For mixed components rendering set this false and set true for rendering only text (required)</p>
-<table>
-<thead>
-<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
-</thead>
-<tbody>
-<tr><td style="text-align:center">boolean</td><td style="text-align:center">true</td></tr>
-</tbody>
-</table>
-<h3><a class="anchor" aria-hidden="true" id="label"></a><a href="#label" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>label</code></h3>
-<p>label to be displayed on the thumbnail (optional)</p>
+<h3><a class="anchor" aria-hidden="true" id="buttonlabel"></a><a href="#buttonlabel" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>buttonLabel</code></h3>
+<p>label which is displayed on the button (required)</p>
 <table>
 <thead>
 <tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
@@ -141,37 +98,180 @@
 </tbody>
 </table>
 <hr>
-<h3><a class="anchor" aria-hidden="true" id="thumbnailstyle"></a><a href="#thumbnailstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>thumbNailStyle</code></h3>
-<p>Outer container style of the thumbnail (optional).You can use all the styles supported by the touchable opacity component in react native.</p>
+<h3><a class="anchor" aria-hidden="true" id="description-1"></a><a href="#description-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>description</code></h3>
+<p>description of the the title content(required)</p>
 <table>
 <thead>
 <tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
 </thead>
 <tbody>
-<tr><td style="text-align:center">object (style)</td><td style="text-align:center"><code>{ height: 100, width: 250, margin: 10, alignSelf: 'center'}</code></td></tr>
+<tr><td style="text-align:center">string</td><td style="text-align:center">none</td></tr>
 </tbody>
 </table>
-<hr>
-<h3><a class="anchor" aria-hidden="true" id="thumbimagestyle"></a><a href="#thumbimagestyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>thumbImageStyle</code></h3>
-<p>Style of the image background (optional). You can use all the styles supported by image background component in react native.</p>
+<h3><a class="anchor" aria-hidden="true" id="highlightedlabel"></a><a href="#highlightedlabel" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>highlightedLabel</code></h3>
+<p>label to be displayed highlighted after the button (required)</p>
 <table>
 <thead>
 <tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
 </thead>
 <tbody>
-<tr><td style="text-align:center">object (style)</td><td style="text-align:center"><code>{ width: '100%',height: '100%',borderColor: '#000', borderWidth: 1, alignItems: 'flex-start',justifyContent: 'flex-end', borderRadius: 5}</code></td></tr>
+<tr><td style="text-align:center">string</td><td style="text-align:center">none</td></tr>
 </tbody>
 </table>
 <hr>
-<h3><a class="anchor" aria-hidden="true" id="thumblabelstyle"></a><a href="#thumblabelstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>thumbLabelStyle</code></h3>
-<p>Style of the title rendered over the image (optional). You can use all the styles supported by the text component in react native.</p>
+<h3><a class="anchor" aria-hidden="true" id="imagesource"></a><a href="#imagesource" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>imageSource</code></h3>
+<p>source of the image to be displayed can be either local image or url</p>
 <table>
 <thead>
 <tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
 </thead>
 <tbody>
-<tr><td style="text-align:center">object (style)</td><td style="text-align:center"><code>{ color: 'white', margin: '3%', fontSize: 18 }</code></td></tr>
+<tr><td style="text-align:center">object (Image.propTypes.source)</td><td style="text-align:center">none</td></tr>
 </tbody>
 </table>
 <hr>
-</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#description">Description</a></li><li><a href="#usage">Usage</a><ul class="toc-headings"><li><a href="#props">Props</a></li><li><a href="#source"><code>source</code></a></li><li><a href="#textonly"><code>textOnly</code></a></li><li><a href="#label"><code>label</code></a></li><li><a href="#thumbnailstyle"><code>thumbNailStyle</code></a></li><li><a href="#thumbimagestyle"><code>thumbImageStyle</code></a></li><li><a href="#thumblabelstyle"><code>thumbLabelStyle</code></a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/docusaurus.svg" alt="WP REACT NATIVE" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 Jeetlab </section></footer></div></body></html>
+<h3><a class="anchor" aria-hidden="true" id="strikedlabel"></a><a href="#strikedlabel" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>strikedLabel</code></h3>
+<p>label to be displayed strikedoff after the button (required)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">string</td><td style="text-align:center">none</td></tr>
+</tbody>
+</table>
+<hr>
+<h3><a class="anchor" aria-hidden="true" id="title"></a><a href="#title" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>title</code></h3>
+<p>title to be displayed on the card</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">string</td><td style="text-align:center">none</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="styling-props"></a><a href="#styling-props" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>styling props</code></h3>
+<p>Refer the styles.js file of the component for the default styles.</p>
+<h3><a class="anchor" aria-hidden="true" id="buttonandlabelscontainerstyle"></a><a href="#buttonandlabelscontainerstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>buttonAndLabelsContainerStyle</code></h3>
+<p>defines the style of the container that holds the button and the labels (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">ViewPropTypes.style</td><td style="text-align:center">Styles.buttonAndLabelsContainer</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="buttonlabelstyle"></a><a href="#buttonlabelstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>buttonLabelStyle</code></h3>
+<p>defines the style of the button label (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Text.propTypes.style</td><td style="text-align:center">Styles.buttonLabelStyle</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="button"></a><a href="#button" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>button</code></h3>
+<p>defines the style of the button (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">View.propTypes.style</td><td style="text-align:center">Styles.button</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="cardcontainerstyle"></a><a href="#cardcontainerstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>cardContainerstyle</code></h3>
+<p>defines the style of the card container (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">View.propTypes.style</td><td style="text-align:center">Styles.cardContainer</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="contentcontainerstyle"></a><a href="#contentcontainerstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>contentContainerStyle</code></h3>
+<p>defines the style of the whole container that holds the title description, button and labels (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">View.propTypes.style</td><td style="text-align:center">Styles.contentContainer</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="decscriptioncontainerstyle"></a><a href="#decscriptioncontainerstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>decscriptionContainerStyle</code></h3>
+<p>defines the style of the container that holds the description (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">View.propTypes.style</td><td style="text-align:center">Styles.decscriptionContainer</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="descriptionstyle"></a><a href="#descriptionstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>descriptionStyle</code></h3>
+<p>defines the style of the description text (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Text.propTypes.style</td><td style="text-align:center">Styles.description</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="highlightedlabelstyle"></a><a href="#highlightedlabelstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>highlightedLabelStyle</code></h3>
+<p>defines the style of the highlighted label (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Text.propTypes.style</td><td style="text-align:center">Styles.highlightedLabel</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="imagestyle"></a><a href="#imagestyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>imageStyle</code></h3>
+<p>defines the style of the image displayed on card (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Image.propTypes.style</td><td style="text-align:center">Styles.image</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="strikedlabelstyle"></a><a href="#strikedlabelstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>strikedLabelStyle</code></h3>
+<p>defines the style of the striked label(optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Text.propTypes.style</td><td style="text-align:center">Styles.strikedLabel</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="titlecontainerstyle"></a><a href="#titlecontainerstyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>titleContainerStyle</code></h3>
+<p>defines the style of the title container (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">View.propTypes.style</td><td style="text-align:center">Styles.titleContainer</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="titlestyle"></a><a href="#titlestyle" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>titleStyle</code></h3>
+<p>defines the style of the title container (optional)</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Type</th><th style="text-align:center">Default</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Text.propTypes.style</td><td style="text-align:center">Styles.title</td></tr>
+</tbody>
+</table>
+<hr>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#description">Description</a></li><li><a href="#usage">Usage</a><ul class="toc-headings"><li><a href="#props">Props</a></li><li><a href="#buttonlabel"><code>buttonLabel</code></a></li><li><a href="#description-1"><code>description</code></a></li><li><a href="#highlightedlabel"><code>highlightedLabel</code></a></li><li><a href="#imagesource"><code>imageSource</code></a></li><li><a href="#strikedlabel"><code>strikedLabel</code></a></li><li><a href="#title"><code>title</code></a></li><li><a href="#styling-props"><code>styling props</code></a></li><li><a href="#buttonandlabelscontainerstyle"><code>buttonAndLabelsContainerStyle</code></a></li><li><a href="#buttonlabelstyle"><code>buttonLabelStyle</code></a></li><li><a href="#button"><code>button</code></a></li><li><a href="#cardcontainerstyle"><code>cardContainerstyle</code></a></li><li><a href="#contentcontainerstyle"><code>contentContainerStyle</code></a></li><li><a href="#decscriptioncontainerstyle"><code>decscriptionContainerStyle</code></a></li><li><a href="#descriptionstyle"><code>descriptionStyle</code></a></li><li><a href="#highlightedlabelstyle"><code>highlightedLabelStyle</code></a></li><li><a href="#imagestyle"><code>imageStyle</code></a></li><li><a href="#strikedlabelstyle"><code>strikedLabelStyle</code></a></li><li><a href="#titlecontainerstyle"><code>titleContainerStyle</code></a></li><li><a href="#titlestyle"><code>titleStyle</code></a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/docusaurus.svg" alt="WP REACT NATIVE" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 Jeetlab </section></footer></div></body></html>
